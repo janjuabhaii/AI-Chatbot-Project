@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "chatbot_lp_dev_db",
+    "host": "./dev.sqlite",
+    "dialect": "sqlite"
+  }, 
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "chatbot_lp_test_db",
+    "host": "./test.sqlite",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "chatbot_lp_prod_db",
+    "host": "./prod.sqlite",
+    "dialect": "sqlite"
+  },
+  "mail_config": {
+    "MJ_APIKEY_PUBLIC": "87988a67d219b69435826dba77c8567a",
+    "MJ_APIKEY_PRIVATE": "c2a990c99cc927a3bed432a78d869114",
+    "SENDER_EMAIL": "contact@broliss.com",
+    "SENDER_NAME": "Broliss",
+    "ADMIN_EMAIL": "contact@broliss.com"
+  },
+  "frontend_url": "https://broliss.com"
+}
